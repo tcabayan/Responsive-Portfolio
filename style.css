@@ -49,8 +49,18 @@
     width: 100%; 
     }
 
+    .column-3 {
+        width: 30%;
+    }
+
+    .column-4 {
+        width: 70%;
+    }
+
    .name {
        position: relative;
+       margin-left: 110px;
+
    }
    
    .span {
@@ -88,15 +98,6 @@
        z-index: 1;
        margin: 110px;
    }
-   .wrapper {
-       background-color: pink;
-       padding: 20px;
-       box-sizing: border-box;
-       border-style: none;
-       border-width: 3px;
-       z-index: 1;
-       margin-top: 110px;
-   }
    
    h2 {
        display: flex;
@@ -107,24 +108,11 @@
        font-weight: bold;
        font-size: 1.3em;
    }
-   
-   .text {
-       justify-content: left;
-       text-align: left;
-   }
-   
-   .text { 
-       width: 200px;
-       border-radius: 50%;
-       float: left;
-       margin: 8px;
-   }
 
-   .profile-img { 
-    width: 200px;
-    border-radius: 50%;
+   .profile-img {
+    border-radius: 53%;
     float: left;
-    margin: 8px;
+    width: 95%;
     }
 
    .content {
@@ -203,17 +191,6 @@
        font-size: 14px;
        text-transform: capitalize;
    }
-   
-   #box {
-       display: inline-block;
-       width: 620px;
-    }
-    
-    .portfolio {
-        width: 960px;
-        height: 500px;
-        margin: 0 auto;
-    }
 
     #portfolioimage {
         height: 110px;
@@ -260,46 +237,23 @@
    
    /*Media Queries */
     @media screen and (max-width: 980px) {
-    header {
-        width: 980px;
-      }
     .name {
-        margin-left: 90px;
+        margin-left: 50px;
       }
 
     .span {
         font-size: .95em;
-        padding: 0px 15px 16px 15px;
+        padding: 15px;
       }
     
-    nav {
-        margin-right: 40px;
+    .tools {
+        margin-left: 70px;
+        font-size: .95em;
       }
     
-    .wrapper {
-        width: 500px;
-        margin-left: 90px;
-        font-size: 13px;
-        margin-top: 80px;
-      }
-
-    #box {
-        width: 450px;
-       }
-    
-    .profile-img {
-        width: 100px;
-      }
-    
-    .portimage {
-        width: 200px;
-      }
-    
-    footer {
-        width: 980px;
-      }
-    
-    }
+    .container-1 {
+       width:55%;
+       margin: 80px 60px 100px 60px;
     
     @media screen and (max-width: 768px) {
     
@@ -386,7 +340,7 @@
     }
 
     @media screen and (max-width: 460px){
-    .wrapper{
+    .container-1{
         margin: 25px auto 0;
     }
     .top-form .inner-form {
