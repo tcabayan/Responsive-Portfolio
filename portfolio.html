@@ -2,29 +2,94 @@
 <html lang="en">
  <head>
    <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Basic Portfolio</title>
    <link rel="stylesheet" type = "text/css" href="style.css">
  </head>
  <body>
    <div class="wrap">
      <header>
-       <div class="header-content">
-         <div class="name">
-           <h1><span class="span">Tamar Cabayan</span></h1>
-         </div>
-         <div class="tools">
-           <nav>
-             <ul>
-               <li><a href="index.html">About Me</a></li>
-               <li><a href="portfolio.html">Portfolio</a></li> 
-               <li><a href="contact.html">Contact Me</a> </li> 
-             </ul>
-           </nav>
-         </div>
+     <!--Beginning of Header Container-->
+       <div class="container">
+           <div class="row">
+               <div class="column-1">
+                   <div class="name">
+                       <h1><span class="span">Tamar Cabayan</span><h1>
+                   </div>
+               </div>
+               <div class="column-1">
+                   <div class="tools">
+                       <nav>
+                           <ul>
+                               <li><a href="index.html">About Me</a></li>
+                               <li><a href="portfolio.html">Portfolio</a></li> 
+                               <li><a href="contact.html">Contact Me</a> </li> 
+                          </ul>
+                       </nav>
+                  </div>
+               </div>
+           </div>
        </div>
+     <!--End of Header Container-->
      </header>
      <main>
-       <div class="wrapper">
+     <!--Start of Main Content Container-->
+       <div class="container-1">
+       <!--Beginning of First Row in Main Content Container-->
+            <div class="row">
+                <div class="column-2">
+                    <h2>My Portfolio</h2>
+                    <hr>
+                </div>                    
+            </div>
+        <!--End of First Row in Main Content Container-->
+        <!--Beginning of Second Row in Main Content Container-->
+            <div class="row">
+               <div class="column-1">
+                   <div class="portimage">
+                       <img id="portfolioimage" src="Images/Hangman.jpg" alt="Hangman"> 
+                       <h3><span>Hangman</span></h3>
+                    </div>
+                </div>
+                <div class="column-1">
+                    <div class="portimage">
+                        <img id="portfolioimage" src="Images/RPG.jpeg" alt="RPG Game"> 
+                        <h3><span>RPG Game</span></h3>
+                    </div>
+                </div>
+            </div>
+        <!--End of Second Row in Main Content Container-->
+        <!--Beginning of Third Row in Main Content Container-->
+            <div class="row">
+                <div class="column-1">
+                    <div class="portimage">
+                        <img id="portfolioimage" src="Images/Trivia Game.jpg" alt="Trivia Game"> 
+                        <h3><span>Trivia Game</span></h3>
+                    </div>
+                </div>
+                <div class="column-1">
+                    <div class="portimage">
+                        <img id="portfolioimage" src="Images/Widget.jpg" alt="Widget"> 
+                        <h3><span>Rutger Info Widget</span></h3>
+                </div>
+            </div>
+        <!--End of Third Row in Main Content Container-->
+        <!--Beginning of Fourth Row in Main Content Container-->
+            <div class="row">
+                <div class="column-1">
+                    <div class="portimage">
+                        <img id="portfolioimage" src="Images/RPS.png" alt="Rock Paper Scissors"> 
+                        <h3><span>Rock Paper Scissors</span></h3>
+                    </div>
+                </div>
+                <div class="column-1">
+                </div>
+            </div>
+        <!--End of Fourth Row in Main Content Container-->
+       </div>
+     <!--End of Main Content Container-->
+
+         <!--
            <div class="portfolio">
                <div id="box">
                 <h2>My Portfolio</h2>
@@ -50,7 +115,8 @@
                     <h3><span>Rock Paper Scissors</span></h3>
                 </div>
                </div>
-           </div>
+           </div>-->
+
         </div>
      </main>
    </div>
